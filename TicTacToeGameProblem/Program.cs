@@ -11,7 +11,6 @@ namespace TicTacToeGameProblem
         
         public static void Main(string[] args)
         {
-            Program.performance();
-        }
+            TicToeTacGame.Performance();        }
     }
 }

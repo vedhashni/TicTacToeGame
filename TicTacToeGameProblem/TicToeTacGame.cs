@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace TicTacToeGameProblem
 {
-    class TicToeTacGame
+    public class TicToeTacGame
     {
         static char[] arr = { '0', '0', '0', '0', '0', '0', '0', '0', '0', '0' };
 
-        public static void performance()
+        public static void Performance()
         {
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
